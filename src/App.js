@@ -1,0 +1,18 @@
+import logo from './logo.svg';
+import './App.css';
+import Navbar from './Navbar';
+import Shop from './Shop';
+function App() {
+  return (
+    <>
+    <Navbar/>
+    <div className="container">
+      
+       <h1 className='mx-5'> Adidas !!!</h1>
+       <Shop/>
+    </div>
+    </>
+  );
+}
+
+export default App;
